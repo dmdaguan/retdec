@@ -7,6 +7,10 @@
 
 [RetDec](https://retdec.com/) is a retargetable machine-code decompiler based on [LLVM](https://llvm.org/).
 
+RetDec 是可重定向的机器码反编译器，同时有在线反编译服务和 API ROPMEMU - 分析、解析、反编译复杂的代码重用攻击的框架，能对常见和传统的硬件架构的机器码进行反编译，支持 ARM, PIC32, PowerPC 以及 MIPS 架构的机器码。
+
+RetDec 现在也开始提供网页服务。在 IoT 物联网设备越来越普及的今日，机器码反编译工作对于防范和发现安全威胁和恶意软件来说至关重要，尽管完全还原机器码的原始汇编指令是不可能的，但反汇编工作能够让生产可执行的等效代码，查看软件是否有恶意攻击意图代码。
+
 The decompiler is not limited to any particular target architecture, operating system, or executable file format:
 * Supported file formats: ELF, PE, Mach-O, COFF, AR (archive), Intel HEX, and raw machine code.
 * Supported architectures (32b only): Intel x86, ARM, MIPS, PIC32, and PowerPC.
